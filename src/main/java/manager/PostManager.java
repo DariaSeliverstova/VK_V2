@@ -2,7 +2,7 @@ package manager;
 
 import domain.Post;
 
-public class ManagerPost {
+public class PostManager {
     private Post[] posts;
 
     public Post[] getPosts() {
@@ -17,6 +17,4 @@ public class ManagerPost {
 
         return null;
     }
-
-
 }

@@ -3,22 +3,18 @@ package manager;
 import domain.Comment;
 
 public class CommentManager {
-    private Comment[] Comments;
+    private Comment[] comments;
 
     public Comment[] getComments() {
-        return Comments;
-
+        return comments;
     }
 
-    public void setComments(Comment[] Comments) {
-        this.Comments = Comments;
+    public void setComments(Comment[] comments) {
+        this.comments = comments;
     }
 
     public Comment[] generateBlock() {
 
         return null;
-
-
     }
-
 }

@@ -3,6 +3,7 @@ package manager;
 
 
 public class MainManager {
+
     private BlockManager[] managers;
 
     public BlockManager[] getManagers() {

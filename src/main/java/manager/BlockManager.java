@@ -1,9 +1,9 @@
 package manager;
 
-
 import java.lang.reflect.Array;
 
 public class BlockManager {
+
     private Array[] managers;
 
     public Array[] getManagers() {
@@ -17,7 +17,4 @@ public class BlockManager {
     public String generateBlock() {
         return null;
     }
-
-
-
 }
